@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(146, 4, 4);
+    text-align: center;
+    border-bottom-style: solid;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 35px 50px 20px 50px;
+}
+
+header li {
+    padding-inline: 20px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+}
+
+a:visited {
+    color: rgb(247, 247, 247);
+}
+
+a:hover {
+    color: cyan;
+}
+
+main {
+    margin: 0 10%;
+
+}
+
+#Sobre {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#educação {
+    margin-inline-start: 225px;
+    margin-inline-end: 225px;
+}
+
+#educacao table {
+    text-align: left;
+    font-size: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#educacao th,
+#educacao td {
+    border: solid 1px rgb(1, 0, 5);
+}
+
+#educacao th {
+    background-color: blue;
+}
+
+h2 {
+    color: #01c594;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #01c594;
+}
+
+h3 {
+    color: #46b3fc;
+
+}
+
+li {
+    list-style-type: square;
+    font-size: 18px;
+}
+
+#contato a {
+    color: blue;
+
+}
+
+#contato a:hover {
+    color: #46b3fc;
+
+}
+
+footer {
+    background-color: rgb(146, 4, 4);
+}
+
+#aurafooter {
+    color: rgb(1, 132, 255);
+    text-align: center;
+}
